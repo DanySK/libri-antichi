@@ -2,7 +2,7 @@
 layout: default
 author: null
 title: Il Libro di Tutti i Paesi
-editor: L. Cappelli Bologna
+editor: Grafiche Alba, Milano
 date: 1938-10-01
 images:
   - cover.jpg
