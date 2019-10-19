@@ -9,15 +9,16 @@
                 </div>
             </div>
             <div class="row">
-                {% for post in site.posts %}
+                {% for post in site.posts reversed %}
+                    {% assign name = post.date | date: "%Y-%m-%d" | append: "-" | append: post.title | downcase | replace: " ", "-" %}
                     <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                        <a href="#{{ name | replace: "-", "" }}" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                            <img src="img/portfolio/{{ name }}/{{ post.images.first }}" class="img-responsive" alt="{{ post.alt }}">
                         </a>
                     </div>
                 {% endfor %}
