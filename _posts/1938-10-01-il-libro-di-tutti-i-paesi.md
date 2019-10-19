@@ -8,5 +8,5 @@ images:
   - cover.jpg
   - date.jpg
   - back.jpg
-description: 'Dalla Enciclopedia per Ragazzi, stampato nel periodo fascista, ne porta chiara traccia nel testo.'
+description: 'Dalla Enciclopedia per Ragazzi, stampato nel periodo fascista.'
 ---
