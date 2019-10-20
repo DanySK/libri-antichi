@@ -2,7 +2,7 @@
 layout: default
 author: Alfonso Manaresi
 title: La Civiltà Medioevale e Moderna
-editor: Zanichelli, Bologna
+editor: Casa Editrice G.B. Petrini, Torino
 date: 1933-01-01
 images:
   - cover.jpg
