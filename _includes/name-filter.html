@@ -1,0 +1,9 @@
+{% assign name = post.date
+    | date: "%Y-%m-%d"
+    | append: "-"
+    | append: post.title
+    | downcase
+    | replace: " ", "-"
+    | replace: "'", "-"
+    | replace: ",", ""
+%}
