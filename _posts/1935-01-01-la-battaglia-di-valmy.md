@@ -1,7 +1,7 @@
 ---
 layout: default
 author: null
-title: La Battaglia di Valmy
+title: [Venduto] La Battaglia di Valmy
 editor: Edizioni Mediolanum, Milano
 date: 1935-01-01
 images:
