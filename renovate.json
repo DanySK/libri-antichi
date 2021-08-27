@@ -1,6 +1,12 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "local>DanySK/renovate-config"
-  ]
+    "config:base", ":rebaseStalePrs",
+  ],
+  "assignees": ["DanySK"],
+  "automerge": true,
+  "dependencyDashboard": true,
+  "prConcurrentLimit": 25,
+  "prHourlyLimit": 0,
+  "schedule": "nonOfficeHours",
+  "timezone": "Europe/Rome",
 }
